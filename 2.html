@@ -4,52 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS</title>
+    <title>Dark Souls 1</title>
+    <link rel="stylesheet" href="test.css" type="text/css" />
   </head>
-
+  <style>
+    #DarkSouls1 {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol style="font-size: 20px">
-      <strong>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-      </strong>
-    </ol>
-    <h2>CSS</h2>
-    <p>
-      <a href="https://www.naver.com" target="_blank" title="naver"
-        >Hypertext Markup Language (HTML)</a
-      >
-      is the standard markup language for
-      <strong>creating <u>web</u> pages</strong>
-      and web applications.
-    </p>
-
-    <p style="margin-top: 40px">
-      HTML elements are the building blocks of HTML pages. With HTML constructs,
-      images and other objects, such as interactive forms, may be embedded into
-      the rendered page. It provides a means to create structured documents by
-      denoting structural semantics for text such as headings, paragraphs,
-      lists, links, quotes and other items. HTML elements are delineated by
-      tags, written using angle brackets.
-    </p>
+    <h1><a href="index.html">FromSoftware</a></h1>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html" class="tag" id="DemonsSouls">Demons Souls</a></li>
+        <li><a href="2.html" class="tag" id="DarkSouls1">Dark Souls 1</a></li>
+        <li><a href="3.html" class="tag" id="DarkSouls2">Dark Souls 2</a></li>
+        <li><a href="4.html" class="tag" id="DarkSouls3">Dark Souls 3</a></li>
+        <li><a href="5.html" class="tag" id="Bloodborne">Bloodborne</a></li>
+        <li><a href="6.html" class="tag" id="Sekiro">Sekiro</a></li>
+        <li><a href="7.html" class="tag" id="EldenRing">Elden Ring</a></li>
+      </ol>
+      <div>
+        <h2>Dark Souls</h2>
+        <p>
+          <a href="https://www.naver.com" target="_blank" title="naver"
+            >Hypertext Markup Language (HTML)</a
+          >
+          is the standard markup language for
+          <strong>creating <u>web</u> pages</strong>
+          and web applications. HTML elements are the building blocks of HTML
+          pages. With HTML constructs, images and other objects, such as
+          interactive forms, may be embedded into the rendered page. It provides
+          a means to create structured documents by denoting structural
+          semantics for text such as headings, paragraphs, lists, links, quotes
+          and other items. HTML elements are delineated by tags, written using
+          angle brackets.
+        </p>
+      </div>
+    </div>
 
     <img src="test.jpg" width="50%" loading="lazy" />
-    <p style="margin-top: 50px">
-      <img src="test2.jpg" width="50%" loading="lazy" />
-    </p>
-
-    <style>
-      button {
-        margin-top: 50px;
-        margin-left: 50px;
-        background-color: silver;
-        font-size: 50px;
-        font-style: oblique;
-        padding: 50px;
-      }
-    </style>
-    <button>test</button>
+    <img src="test2.jpg" width="50%" loading="lazy" />
   </body>
 </html>

@@ -1,0 +1,34 @@
+<style>
+  input[id="e"] {
+    margin-left: 50px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #bcbcbc;
+    font-size: 50px;
+  }
+  input[id="e"] + label {
+    font-size: 50px;
+    background-color: red;
+  }
+  input[id="e"]:checked + label {
+    background-color: yellow;
+  }
+</style>
+<input type="checkbox" , id="e" />
+<label for="e">hello</label>
+<input type="checkbox" />
+
+<form action="/examples/media/action_target.php" method="get">
+  여러분의 나이대를 골라보세요.<br />
+  <input type="radio" name="ages" id="teen" value="teenage" />
+  <label for="teen">10대</label><br />
+
+  <input type="radio" name="ages" id="twenty" value="twenties" />
+  <label for="twenty">20대</label><br />
+  <input type="radio" name="ages" id="thirty" value="thirties" />
+  <label for="thirty">30대</label><br />
+  <input type="radio" name="ages" id="forty" value="forties" />
+  <label for="forty">40대 이상</label><br />
+  <input type="submit" />
+</form>
