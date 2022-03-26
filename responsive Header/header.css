@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(128, 128, 128);
+  margin: 0px;
+}
+
+#header {
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 20px;
+}
+
+#manuBtn {
+  color: white;
+  background-color: transparent;
+  margin-right: 5px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+#manuBtn:hover {
+  background-color: rgb(201, 132, 5);
+}
+
+i {
+  color: white;
+  margin: 15px;
+  font-size: 20px;
+}
+
+i:hover {
+  color: rgb(201, 132, 5);
+}
+
+.phoneSize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 350px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.hidMenuBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.hidMenuBtn:hover {
+  background-color: rgb(201, 132, 5);
+}
+
+/* .hidSnsBtn {
+  margin-top: 20px;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(80, 77, 77);
+  border: none;
+} */
+
+#hiddenBtn {
+  display: visible;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+}
+
+#hiddenBtn:active {
+  background-color: rgb(201, 132, 5);
+}
+
+@media screen and (max-width: 600px) {
+  #manuBtn,
+  #snsBtn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #hiddenBtn,
+  #hidMenu {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  #header {
+    flex-direction: column;
+  }
+  .manuBtn {
+    flex-direction: column;
+  }
+} */
